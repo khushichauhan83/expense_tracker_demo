@@ -1,0 +1,85 @@
+/* src/pages/Dashboard.css */
+.dashboard-container {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f8ff;
+  min-height: 100vh;
+  padding: 20px;
+  color: #333;
+}
+
+.top-card {
+  background: linear-gradient(135deg, #5e3bc9, #7f5cff);
+  border-radius: 20px;
+  padding: 20px;
+  color: white;
+  margin-bottom: 20px;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(94, 59, 201, 0.3);
+}
+
+.top-card h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.top-card h2 span {
+  font-weight: bold;
+}
+
+.balance-box {
+  margin-top: 10px;
+}
+
+.balance-box p {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.balance-box h3 {
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+
+.info-card {
+  background: white;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+}
+
+.info-card p {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  font-size: 0.95rem;
+}
+
+.info-card .icon {
+  color: #5e3bc9;
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+.expenses-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #5e3bc9;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(94, 59, 201, 0.3);
+  transition: 0.3s ease;
+}
+
+.expenses-btn:hover {
+  background: #4a2fa0;
+}
+
+.loading {
+  text-align: center;
+  color: gray;
+}
